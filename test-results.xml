@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="10" failures="0" errors="0" time="2.673">
+  <testsuite name="src/tests/Img.test.js" errors="0" failures="0" skipped="0" timestamp="2023-07-03T20:15:03" time="0.842" tests="1">
+    <testcase classname="&lt;Img&gt;" name="should match snapshot" time="0.025">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/tests/lockedPicker.test.js" errors="0" failures="0" skipped="0" timestamp="2023-07-03T20:15:03" time="1.525" tests="3">
+    <testcase classname="lockedPicker" name="should have all components with proper CSS classes" time="0.039">
+    </testcase>
+    <testcase classname="lockedPicker" name="should have all components unlocked by default" time="0.01">
+    </testcase>
+    <testcase classname="lockedPicker" name="should have all components locked after clicked to add a component" time="0.026">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/tests/Forms.test.js" errors="0" failures="0" skipped="0" timestamp="2023-07-03T20:15:03" time="1.518" tests="3">
+    <testcase classname="Forms" name="should not display component form by default" time="0.043">
+    </testcase>
+    <testcase classname="Forms" name="should display component form after choosing a component to add" time="0.027">
+    </testcase>
+    <testcase classname="Forms" name="should display all components available to add" time="0.013">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/tests/Preview.test.js" errors="0" failures="0" skipped="0" timestamp="2023-07-03T20:15:03" time="1.568" tests="3">
+    <testcase classname="Preview" name="should display empty preview if no components were added" time="0.04">
+    </testcase>
+    <testcase classname="Preview" name="should display a link component in the preview after it was added" time="0.044">
+    </testcase>
+    <testcase classname="Preview" name="should display again an empty preview after a link was added and later deleted" time="0.033">
+    </testcase>
+  </testsuite>
+</testsuites>
